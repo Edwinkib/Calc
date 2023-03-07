@@ -17,7 +17,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // const DB = process.env.DATABASE.replace('<PASSWORD>', process.env.DATABASE_PASSWORD);
-const DB = 'mongodb://3.231.31.180:27017/calc';
+const DB = 'mongodb://18.207.97.228:27017/calc';
 
 
 mongoose.connect(DB, {
