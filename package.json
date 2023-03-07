@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npx mocha \"tests/apiTest.js\" --timeout 10000",
     "lint:fix": "eslint --fix ./*.js",
-    "start:dev": "nodemon app.js",
-    "start:prod": "node app.js"
+    "start": "nodemon app.js"
+    
   },
   "author": "Group-3",
   "license": "ISC",
